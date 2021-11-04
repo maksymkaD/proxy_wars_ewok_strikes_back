@@ -1,0 +1,16 @@
+{
+  "name": "proxy_wars_ewok_strikes_back",
+  "version": "1.0.0",
+  "description": "extend SWAPI with Ewok encoding",
+  "main": "index.js",
+  "author": "maksymka_D",
+  "license": "MIT",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "axios": "^0.24.0",
+    "express": "^4.17.1",
+    "http-proxy-middleware": "^2.0.1"
+  }
+}
