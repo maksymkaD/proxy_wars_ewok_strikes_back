@@ -39,7 +39,10 @@ app.use('/', function (req, res) {
             res.send(response.data);
         }
     }).catch(function (err) {
-        res.send(err.message);
+        console.log(err.message + " CURL "+ API_SERVICE_URL + req.path + query_str);
+        res.send({
+            "detail": "Not found"
+        });
     });
 });
 
