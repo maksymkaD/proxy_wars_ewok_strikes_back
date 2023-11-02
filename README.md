@@ -1,3 +1,3 @@
 # proxy_wars_ewok_strikes_back
 
-Simple proxy of SWAPI.
+Simple proxy of SWAPI. One of many test tasks... the times were rough...
